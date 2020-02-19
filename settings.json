@@ -1,0 +1,99 @@
+{
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\php\\php.exe",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        "go": "go run",
+        "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -Wall -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -Wall -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cc": "cd $dir && g++ $fileName -Wall -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
+    "editor.cursorStyle": "line",
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 19,
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+    "editor.renderIndentGuides": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.formatOnSaveTimeout": 750,
+    "editor.formatOnPaste": false,
+    "editor.suggestFontSize": 0,
+    "clang-format.executable": "C:/Users/admin/.vscode/extensions/ms-vscode.cpptools-0.26.2/LLVM/bin/clang-format",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "code-runner.runInTerminal": true,
+    "background.enabled": true,
+    "background.useDefault": false,
+    //是否使用默认图片
+    "background.customImages": [
+        "file:D://Chrome//png//Live2D.png",
+        "file:D://Chrome//png//Live2D2.png",
+        "file:D://Chrome//png//Live2D4.png"
+        //"file://D:/2345Downloads/png/1.jpg",//图片路径
+    ],
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 0.35
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#82e0aa", // 注释
+        "keywords": "#0a0", // 关键字
+        "variables": "#f00", // 变量名
+        "strings": "#e2d75dbd", // 字符串
+        "functions": "#5b99fcc9", // 函数名
+        "numbers": "#AE81FF" // 数字
+    },
+    // 选中高亮的颜色
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#aa0000"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomlevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "leetcode.endpoint": "leetcode-cn",
+    "powermode.enabled": true,
+    "powermode.enableShake": false,
+    "powermode.presets": "fireworks",
+    "leetcode.workspaceFolder": "C:\\Users\\admin\\.leetcode",
+    "leetcode.defaultLanguage": "c",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "files.autoGuessEncoding": true,
+    "leetcode.showCommentDescription": true,
+    "files.autoSaveDelay": 100,
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "task.autoDetect": "off",
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.home": "D:\\Java\\jdk-13",
+    "java.help.firstView": "gettingStarted",
+}
