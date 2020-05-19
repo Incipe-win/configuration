@@ -1,17 +1,27 @@
+" vi vim兼容
 set nocompatible
+" 语法高亮
 syntax on
+" 显示状态栏
 set showmode
 set showcmd
+" 允许使用鼠标
 set mouse=a
+" utf
 set encoding=utf-8
+" 256颜色
 set t_Co=256
+" 自动语法高亮，根据后缀名
 filetype indent on
 set autoindent
+" 禁用TAB，设置TAB为两个空格
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set softtabstop=2
+" 显示行号
 set number
+" 光标高连当前行
 set cursorline
 set textwidth=80
 set wrap
@@ -21,15 +31,19 @@ set scrolloff=5
 set sidescrolloff=15
 set laststatus=2
 set ruler
+" 高亮匹配括号
 set showmatch
 set nohlsearch
 set incsearch
 set ignorecase
 set smartcase
-set spell spelllang=en_us
+" 启动拼写检查
+" set spell spelllang=en_us
+" 不备份
 set nobackup
 set noswapfile
 set undofile
+" 设置备份路径
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
 set undodir=~/.vim/.undo//
@@ -43,6 +57,7 @@ set list
 set wildmenu
 set wildmode=longest:list,full
 " imap { {}<ESC>i<CR><ESC>V<O
+" {换行自动缩进
 imap {<CR> {}<ESC>i<CR><TAB><ESC>V<O
 " set background=dark
 " colorscheme solarized
@@ -66,6 +81,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'vim-scripts/indentpython.vim'
 " vim-autoformat
 "F3自动格式化代码
 noremap <F3> :Autoformat<CR>
@@ -123,3 +139,15 @@ let g:NERDTreeGlyphReadOnly="RO"
 call vundle#end()            " required
 filetype plugin indent on    " required
 set clipboard=unnamed
+" python
+let python_highlight_all=1
+au Filetype python set tabstop=4
+au Filetype python set softtabstop=4
+au Filetype python set shiftwidth=4
+au Filetype python set textwidth=79
+au Filetype python set expandtab
+au Filetype python set autoindent
+au Filetype python set fileformat=unix
+autocmd Filetype python set foldmethod=indent
+autocmd Filetype python set foldlevel=99
+" python
